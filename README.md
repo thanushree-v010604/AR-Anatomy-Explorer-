@@ -137,9 +137,25 @@ This project is licensed under the **MIT License**.
 See the [LICENSE](./LICENSE) file for details.
 
 ---
-
 ## 👤 Author
 
-**Raj Pandith**
+**Original Project:** Raj Pandith  
 GitHub: [raj-pandith](https://github.com/raj-pandith)
+
+### 👨‍💻 Further Development
+
+**Thanushree V**  
+GitHub: [thanushree-v010604](https://github.com/thanushree-v010604)
+
+Extended the project with:
+- 🤖 AI-powered Anatomy Assistant
+- 💬 Context-aware anatomy conversations
+- 🧑‍🏫 Explain Simply mode
+- 🔬 Deep Dive mode
+- 📝 Study Summary mode
+- 🧠 AI-assisted Quiz mode
+- 🔄 Anatomy comparison
+- ⚙️ Backend AI API integration
+- 🧠 LLM integration
+- 📚 Additional interactive learning features
 
