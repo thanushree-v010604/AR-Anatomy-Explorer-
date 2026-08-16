@@ -38,51 +38,7 @@ The project has been extended with an AI-powered Anatomy Assistant to provide in
 - 🧠 **Quiz Me** — Test your understanding with anatomy-focused questions
 - 🔄 **Compare** — Compare the selected anatomy system with another available system
 
-### 📚 Additional Learning Features
 
-- Context-aware AI conversations based on the selected anatomy
-- Suggested questions for guided learning
-- AI-generated study material
-- Interactive quiz functionality
-- Anatomy system comparison
-- Learning progress tracking
-- Structured Markdown rendering for AI responses
-- Proper formatting of headings, paragraphs, lists, and emphasized text
-
-### 🏗️ AI Architecture
-
-The Anatomy AI functionality uses a frontend-to-backend architecture to keep the AI API credentials server-side.
-
-```text
-Anatomy AI Interface
-        ↓
-Frontend AI Client
-        ↓
-Backend API
-        ↓
-LLM Provider
-        ↓
-AI Response
-        ↓
-Markdown Rendering
-
-AI Components Added
-src/
-├── components/
-│   └── AnatomyAI.tsx
-│
-└── services/
-    └── aiClient.ts
-
-server/
-└── src/
-    ├── routes/
-    │   └── anatomyChat.ts
-    │
-    ├── services/
-    │   └── llmProvider.ts
-    │
-    └── index.ts
 ## 🖼️ Screenshots for laptop and mobile view
 
 
