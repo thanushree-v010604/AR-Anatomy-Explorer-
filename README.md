@@ -164,7 +164,7 @@ See the [LICENSE](./LICENSE) file for details.
 **Original Project:** Raj Pandith  
 GitHub: [raj-pandith](https://github.com/raj-pandith)
 
-### 👨‍💻 Further Development
+### Further Development
 
 **Thanushree V**  
 GitHub: [thanushree-v010604](https://github.com/thanushree-v010604)
