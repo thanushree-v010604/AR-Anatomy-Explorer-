@@ -39,8 +39,7 @@ The project has been extended with an AI-powered Anatomy Assistant to provide in
 - 🔄 **Compare** — Compare the selected anatomy system with another available system
 
 
-## 🖼️ Screenshots for laptop and mobile view
-
+## 🖼️ Screenshots for laptop and mobile view 
 
 <span>
 <img src="images/pic1.jpeg" alt="AR Screenshot" width="500" height="700"/>
