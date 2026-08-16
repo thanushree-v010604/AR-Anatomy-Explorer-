@@ -43,16 +43,27 @@ The project has been extended with an AI-powered Anatomy Assistant to provide in
 
 <span>
 <img src="images/pic1.jpeg" alt="AR Screenshot" width="500" height="700"/>
+ 
 <img src="images/pic2.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+
 <img src="images/pic3.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+
 <img src="images/pic4.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+
 <img src="images/pic5.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+
 <img src="images/pic6.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+
 <img src="images/pic7.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+
 <img src="images/pic8.jpeg" alt="AR Screenshot" width="500" heihgt="700"/>
+
 <img src="images/pic9.jpeg" alt="AR Screenshot" width="500" height="700"/>
+
 <img src="images/pic10.jpeg" alt="AR Screenshot" width="500" height="700"/>
+
 <img src="images/pic11.jpeg" alt="AR Screenshot" width="500" height="700"/>
+
 <img src="images/pic12.jpeg" alt="AR Screenshot" width="500" height="700"/>
 </span>
 
