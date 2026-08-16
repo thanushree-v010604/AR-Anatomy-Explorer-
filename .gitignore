@@ -23,3 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 .env
+server/groq-*.json
+server/groq-*.txt
+server/verify-*.json
+server/verify-*.txt
+server/response.json

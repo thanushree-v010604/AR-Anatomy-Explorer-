@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { CheckCircle, XCircle, RotateCcw, Trophy, Brain, Target, Zap } from 'lucide-react';
 import { AnatomySystem, QuizQuestion } from '../types/anatomy';
 import { quizQuestions } from '../data/quizData';
@@ -21,13 +21,7 @@ export const QuizMode: React.FC<QuizModeProps> = ({
   const [availableQuestions, setAvailableQuestions] = useState<QuizQuestion[]>([]);
   const [userAnswers, setUserAnswers] = useState<(number | null)[]>([]);
 
-  useEffect(() => {
-    if (selectedDifficulty) {
-      generateQuestions(selectedDifficulty);
-    }
-  }, [selectedDifficulty, studiedSystems]);
-
-  const generateQuestions = (difficulty: 'beginner' | 'intermediate' | 'advanced') => {
+  const generateQuestions = useCallback((difficulty: 'beginner' | 'intermediate' | 'advanced') => {
     // Filter questions based on difficulty and studied systems
     const studiedSystemIds = Array.from(studiedSystems);
     const filteredQuestions = quizQuestions.filter(q => 
@@ -38,7 +32,13 @@ export const QuizMode: React.FC<QuizModeProps> = ({
     const selectedQuestions = filteredQuestions.slice(0, 10);
     setAvailableQuestions(selectedQuestions);
     setUserAnswers(new Array(selectedQuestions.length).fill(null));
-  };
+  }, [studiedSystems]);
+
+  useEffect(() => {
+    if (selectedDifficulty) {
+      generateQuestions(selectedDifficulty);
+    }
+  }, [selectedDifficulty, generateQuestions]);
 
   const handleAnswerSelect = (answerIndex: number) => {
     setSelectedAnswer(answerIndex);

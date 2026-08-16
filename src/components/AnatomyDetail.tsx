@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { ArrowLeft, BookOpen, Lightbulb, Link, Share2 } from 'lucide-react';
+import { ArrowLeft, BookOpen, Lightbulb, Link } from 'lucide-react';
+import { AnatomyAI } from './AnatomyAI';
 import { AnatomySystem } from '../types/anatomy';
 import DownloadButton from './DownloadButton.jsx';
 
@@ -20,11 +21,7 @@ export const AnatomyDetail: React.FC<AnatomyDetailProps> = ({
     { id: 'related', label: 'Related Systems', icon: Link }
   ] as const;
 
-  const difficultyColors = {
-    beginner: 'bg-green-500',
-    intermediate: 'bg-yellow-500',
-    advanced: 'bg-red-500'
-  };
+  
 
 
 
@@ -133,7 +130,8 @@ export const AnatomyDetail: React.FC<AnatomyDetailProps> = ({
 
             <DownloadButton fileName={system.htmlnotesName} />
 
-
+            {/* Anatomy AI panel (mock in Phase 3) */}
+            <AnatomyAI system={system} />
 
             {activeTab === 'related' && (
               <div className="space-y-6">
