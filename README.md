@@ -11,19 +11,12 @@ A modern Augmented Reality (AR)–based anatomy learning application that allows
 
 * 🧍 **Full 3D human body model**
 * 🫁 **Tap on any organ** to view:
-* 🤖 Anatomy AI Assistant
-
-  * Organ name
-  * Function description
-  * Animation / simulation
-  * Audio narration
 * 📱 **AR Mode** (no headset required) — view the anatomy model directly in your environment
 * 🎧 **Audio-assisted learning**
 * 🖥️ **Clean, responsive UI** built with React + Tailwind
 * 🌐 **Live Demo**: [https://arproject-one.vercel.app/](https://arproject-one.vercel.app/)
 * 🚀 **Latest Deployment**: [https://ar-anatomy-explorer-hsd9.onrender.com](https://ar-anatomy-explorer-hsd9.onrender.com)                   
 
----
 ---
 
 ## 🤖 Anatomy AI Assistant
