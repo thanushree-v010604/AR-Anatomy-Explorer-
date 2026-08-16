@@ -21,7 +21,8 @@ A modern Augmented Reality (AR)–based anatomy learning application that allows
 * 🎧 **Audio-assisted learning**
 * 🖥️ **Clean, responsive UI** built with React + Tailwind
 * 🌐 **Live Demo**: [https://arproject-one.vercel.app/](https://arproject-one.vercel.app/)
-*                    https://ar-anatomy-explorer-hsd9.onrender.com
+* 🚀 **Latest Deployment**: [https://ar-anatomy-explorer-hsd9.onrender.com](https://ar-anatomy-explorer-hsd9.onrender.com)
+*                    
 
 ---
 ---
